@@ -11,7 +11,7 @@ body{
 
 
 
-h1 {
+.logo-one {
     font-size: 60pt;
     font-family: 'Luckiest Guy';
     color: #fff;
@@ -41,7 +41,21 @@ h1 {
                    0 22px 22px rgba(0,0,0,.15);
   }
 
+  .logo-two{
+    font-size: 14pt;
+    font-family: 'Luckiest Guy';
+    text-shadow: 2px 2px #0b8792, 0px -2px 0 #0b8792;
+  }
+
   .form-login{
       background-color: rgba(0,0,0,.6);
       padding: 20pt;
+  }
+
+
+  /*DASHBOARD*/
+
+  .panel{
+        opacity: 0.8;
+        height: 100vh;
   }
